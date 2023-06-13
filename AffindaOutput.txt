@@ -1,0 +1,78 @@
+# formatted_resume = {}
+# formatted_resume['name'] = resume_dict['data']['name']['raw']
+# formatted_resume['education'] = [ for e in ]
+
+
+#SampleResume.pdf output
+#{'data': 
+# {'name': {'raw': 'LinkedIn', 'first': 'Linkedin', 'last': '', 'middle': '', 'title': ''}, 
+# 'phone_numbers': [], 
+# 'websites': [], 
+# 'emails': [], 
+# 'objective': '', 
+# 'languages': ['English'], 
+# 'summary': '', 
+# 'total_years_experience': 0, 
+# 'education': [{'id': 12483575, 'organization': 'University of Central Florida', 
+# 'accreditation': {'education': 'Bachelor of Science', 
+# 'input_str': 'Bachelor of Science in Environmental Studies', 'match_str': '', 
+# 'education_level': 'bachelors'}, 'location': {'formatted': 'Orlando, FL, USA', 
+# 'state': 'Florida', 'country': 'United States', 'country_code': 'US', 'raw_input': 'Orlando, FL', 
+# 'city': 'Orlando', 'latitude': 28.5383355, 'longitude': -81.3792365}}, 
+# {'id': 12483576, 'organization': 'University of Barcelona', 
+# 'accreditation': {'education': 'UCF Study Abroad', 'input_str': 'UCF Study Abroad', 'match_str': ''},
+#  'location': {'formatted': 'Spain', 'country': 'Spain', 'country_code': 'ES', 'raw_input': 'Spain', 'latitude': 40.46366700000001, 'longitude': -3.74922}}], 
+# 'profession': 'Environmental Engineer', 
+# 'work_experience': [{'id': 24233531, 'job_title': 'Environmental Policy Intern', 
+# 'organization': 'National Audubon Society', 
+# 'location': {'formatted': 'Maitland, FL, USA', 
+# 'state': 'Florida', 'country': 'United States', 'country_code': 'US', 'raw_input': 'Maitland, FL', 'city': 'Maitland', 'latitude': 28.6277767, 'longitude': -81.36312439999999}, 'job_description': ' 
+# Identify emerging environmental issues and developing innovative, strategic programs to minimizerisk and maximize leadership opportunities \n●Support the establishment and management of Cost Recovery Agreements with Federal Land Management Agencies and other resource agencies \n
+# ●Review and categorize comments and positions from stakeholder groups \n●Conduct research as necessary to support our environmental policy positions \n●Support Policy leads in conducting legislative, regulatory and policy review and analysis of key land and environmental issues from the state and federal legislature and regulators \n
+# ●Track legislation, regulations and other environmental policies and inform the team about relevant dates and times ', 
+# 'occupation': {'job_title': 'Environmental Policy Intern', 'job_title_normalized': 'Environmental Policy Analyst', 'management_level': 'Low', 'classification': {'title': 'Environment professionals', 'minor_group': 'Conservation and Environment Professionals', 
+# 'sub_major_group': 'SCIENCE, RESEARCH, ENGINEERING AND TECHNOLOGY PROFESSIONALS', 'major_group': 'PROFESSIONAL OCCUPATIONS', 'soc_code': 2152}}}, {'id': 24233532, 'job_title': 'Environmental Planning Intern', 'organization': 'Seminole County', 
+# 'location': {'formatted': 'Oviedo, FL, USA', 'state': 'Florida', 'country': 'United States', 'country_code': 'US', 'raw_input': 'Oviedo, FL', 'city': 'Oviedo', 'latitude': 28.669997, 'longitude': -81.20812029999999}, 
+# 'job_description': ' Assisted on a variety of environmental studies for infrastructure projects including power, water, transportation, and development-related projects \n●Worked under supervision of a project manager or senior-level team member \n
+# ●Administrative/business development assistance \n●Preparation of various components of CEQA and NEPA documents \n●Prepared materials and graphics in support of landscape architecture and community projects \n●Researched and general technical writing in support of the aforementioned ', 
+# 'occupation': {'job_title': 'Environmental Planning Intern', 'job_title_normalized': 'Environmental Planning Intern', 'management_level': 'Low'}}], 'skills': [{'id': 133842916, 'emsi_id': 'KS4429P67QXNQL84KM15', 'name': 'Zope (CMS)', 'type': 'hard_skill', 'sources': [{'section': 'Skills/Interests/Languages'}]}, 
+# {'id': 133842917, 'emsi_id': 'ESEB1D4619E6E83A061D', 'name': 'Planning', 'type': 'soft_skill', 'sources': [{'section': 'WorkExperience'}]}, {'id': 133842919, 'emsi_id': 'KS4425C7820LCHZS7VGX', 'name': 'Writing', 'type': 'soft_skill', 'sources': [{'section': 'WorkExperience', 'position': 1, 'work_experience_id': 24233532}]}, 
+# {'id': 133842920, 'emsi_id': 'KS1212B6QR5SK1LSD4S4', 'name': 'Business Development', 'type': 'hard_skill', 'sources': [{'section': 'WorkExperience', 'position': 1, 'work_experience_id': 24233532}]}, 
+# {'id': 133842924, 'emsi_id': 'KS124JB619VXG6RQ810C', 'name': 'Leadership', 'type': 'soft_skill', 'sources': [{'section': 'WorkExperience', 'position': 0, 'work_experience_id': 24233531}]}, 
+# {'id': 133842925, 'emsi_id': 'KS1218W78FGVPVP2KXPX', 'name': 'Management', 'type': 'soft_skill', 'sources': [{'section': 'WorkExperience', 'position': 0, 'work_experience_id': 24233531}]}, 
+# {'id': 133842926, 'emsi_id': 'KS121XY6VSGJ3Z6J82FQ', 'name': 'Infrastructure', 'type': 'soft_skill', 'sources': [{'section': 'WorkExperience', 'position': 1, 'work_experience_id': 24233532}]}, 
+# {'id': 133842927, 'emsi_id': 'KS123L95Y41DFK8BWZXF', 'name': 'Environmental Policy', 'type': 'hard_skill', 'sources': [{'section': 'WorkExperience', 'position': 0, 'work_experience_id': 24233531}]}, 
+# {'id': 133842930, 'emsi_id': 'KS1203C6N9B52QGB4H67', 'name': 'Research', 'type': 'soft_skill', 'sources': [{'section': 'Extracurriculars/Leadership'}, 
+# {'section': 'WorkExperience', 'position': 0, 'work_experience_id': 24233531}, {'section': 'WorkExperience', 'position': 1, 'work_experience_id': 24233532}]}, 
+# {'id': 133842931, 'emsi_id': 'KS122FV73MMMYFGYMTTY', 'name': 'Food Services', 'type': 'hard_skill', 'sources': [{'section': 'Extracurriculars/Leadership'}]}, 
+# {'id': 133842934, 'emsi_id': 'KS123KW6BLTZTBTQZ4TR', 'name': 'Environmental Protection', 'type': 'hard_skill', 'sources': [{'section': 'Extracurriculars/Leadership'}]}, 
+# {'id': 133842935, 'emsi_id': 'KS4418877WW06JL2XBNJ', 'name': 'Technical Writing', 'type': 'hard_skill', 'sources': [{'section': 'WorkExperience', 'position': 1, 'work_experience_id': 24233532}]}, 
+# {'id': 133842936, 'emsi_id': 'KS120M86QF6X6S7QP3GG', 'name': 'ArcGIS (GIS Software)', 'type': 'hard_skill', 'sources': [{'section': 'Skills/Interests/Languages'}]}, 
+# {'id': 133842918, 'emsi_id': 'KS6UL5GW1OS26T5WW2UK', 'name': 'Composting', 'type': 'hard_skill', 'sources': [{'section': 'Extracurriculars/Leadership'}]}, 
+# {'id': 133842921, 'emsi_id': 'KS123LC64BSHVGZ7YPBJ', 'name': 'Environmental Studies', 'type': 'hard_skill', 'sources': [{'section': 'WorkExperience', 'position': 1, 'work_experience_id': 24233532}]}, 
+# {'id': 133842922, 'emsi_id': 'KS125Q46DRC84LP4BKJW', 'name': 'Landscape Architecture', 'type': 'hard_skill', 'sources': [{'section': 'WorkExperience', 'position': 1, 'work_experience_id': 24233532}]}, 
+# {'id': 133842923, 'emsi_id': 'KS125SJ6J3FPRPLTSD7J', 'name': 'Legislation', 'type': 'hard_skill', 'sources': [{'section': 'WorkExperience', 'position': 0, 'work_experience_id': 24233531}]}, 
+# {'id': 133842928, 'emsi_id': 'ESD6C276BC65C8793CA1', 'name': 'Ecological Restoration', 'type': 'hard_skill', 'sources': [{'section': 'Extracurriculars/Leadership'}]}, 
+# {'id': 133842929, 'emsi_id': 'KS123L86TZR8Z3TLXRQ3', 'name': 'Environmental Planning', 'type': 'hard_skill', 'sources': [{'section': 'WorkExperience'}]}, 
+# {'id': 133842932, 'emsi_id': 'KS1246S7411DK3YRQG6B', 'name': 'Gardening', 'type': 'hard_skill', 'sources': [{'section': 'Extracurriculars/Leadership'}]}, 
+# {'id': 133842933, 'emsi_id': 'KS7G3W265MVPZ7WSRGKL', 'name': 'Restoration', 'type': 'hard_skill', 'sources': [{'section': 'Extracurriculars/Leadership'}]}], 'certifications': [], 'publications': [], 'referees': [], 'sections': [{'section_type': 'PersonalDetails', 'bbox': [225.24, 49.763977, 386.484, 79.380005], 'page_index': 0, 'text': 'Name LinkedIn | Phone Number | Email'}, 
+# {'section_type': 'Education', 'bbox': [36.05991, 97.47595, 571.07996, 177.29999], 'page_index': 0, 'text': 'EDUCATION Bachelor of Science in Environmental Studies 05/20XX University of Central Florida, Orlando, FL UCF Study Abroad 05/20XX-07/20XX University of Barcelona, Spain'}, {'section_type': 'Skills/Interests/Languages', 
+# 'bbox': [36.09591, 194.07593, 575.11194, 218.70001], 'page_index': 0, 'text': 'SKILLS ArcGIS Cascade CMS Field Measurements Depth at Breast Height (DBH) Crown Light Exposure'}, 
+# {'section_type': 'WorkExperience', 'bbox': [35.67586, 235.47595, 571.188, 549.78], 'page_index': 0, 'text': 'ENVIRONMENTAL EXPERIENCE Environmental Policy Intern National Audubon Society Maitland, FL 06/20XX - 04/20XX ● 
+# Identify emerging environmental issues and developing innovative, strategic programs to minimizerisk and maximize leadership opportunities ● Support the establishment and management of Cost Recovery Agreements with Federal Land Management Agencies and other resource agencies ● 
+# Review and categorize comments and positions from stakeholder groups ● Conduct research as necessary to support our environmental policy positions ● Support Policy leads in conducting legislative, regulatory and policy review and analysis of key land and environmental issues from the state and federal legislature and regulators ● 
+# Track legislation, regulations and other environmental policies and inform the team about relevant dates and times Environmental Planning Intern Seminole County Oviedo, FL 05/20XX - 08/20XX ● Assisted on a variety of environmental studies for infrastructure projects including power, water, transportation, and development-related projects ● 
+# Worked under supervision of a project manager or senior-level team member ● Administrative/business development assistance ● Preparation of various components of CEQA and NEPA documents ● Prepared materials and graphics in support of landscape architecture and community projects ● Researched and general technical writing in support of the aforementioned'}, 
+# {'section_type': 'Extracurriculars/Leadership', 'bbox': [36.060017, 566.556, 570.82806, 712.86], 'page_index': 0, 'text': 'VOLUNTEER EXPERIENCE Ecological Restoration Volunteer Orange County Environmental Protection Orlando, FL Spring (3 hours/week) ● Assisted with native revegetation efforts intended to provide migratory birds with habitat and food ● Researched nationwide campus efforts to compost campus food waste ● 
+# Developed a food waste composting plan implemented by food services Environmental Action Team ● Taught 1st-4th graders about ecological concepts related to gardening CAMPUS INVOLVEMENT UCF Green Generation Club 08/20XX – Present Glee Club at UCF 09/20XX-Present'}], 'is_resume_probability': 99, 'raw_text': 'Name LinkedIn | Phone Number | Email\n
+# EDUCATION Bachelor of Science in Environmental Studies 05/20XX University of Central Florida, Orlando, FL UCF Study Abroad 05/20XX-07/20XX University of Barcelona, Spain\nSKILLS ArcGIS Cascade CMS Field Measurements Depth at Breast Height (DBH) Crown Light Exposure\nENVIRONMENTAL EXPERIENCE Environmental Policy Intern National Audubon Society Maitland, FL 06/20XX - 04/20XX ● 
+# Identify emerging environmental issues and developing innovative, strategic programs to minimizerisk and maximize leadership opportunities ● 
+# Support the establishment and management of Cost Recovery Agreements with Federal Land Management Agencies and other resource agencies ● Review and categorize comments and positions from stakeholder groups ● 
+# Conduct research as necessary to support our environmental policy positions ● 
+# Support Policy leads in conducting legislative, regulatory and policy review and analysis of key land and environmental issues from the state and federal legislature and regulators ● 
+# Track legislation, regulations and other environmental policies and inform the team about relevant dates and times Environmental Planning Intern Seminole County Oviedo, FL 05/20XX - 08/20XX ● 
+# Assisted on a variety of environmental studies for infrastructure projects including power, water, transportation, and development-related projects ● Worked under supervision of a project manager or senior-level team member ● Administrative/business development assistance ● Preparation of various components of CEQA and NEPA documents ● 
+# Prepared materials and graphics in support of landscape architecture and community projects ● Researched and general technical writing in support of the aforementioned\nVOLUNTEER EXPERIENCE Ecological Restoration Volunteer Orange County Environmental Protection Orlando, FL Spring (3 hours/week) ● 
+# Assisted with native revegetation efforts intended to provide migratory birds with habitat and food ● Researched nationwide campus efforts to compost campus food waste ● Developed a food waste composting plan implemented by food services Environmental Action Team ● 
+# Taught 1st-4th graders about ecological concepts related to gardening CAMPUS INVOLVEMENT UCF Green Generation Club 08/20XX – Present Glee Club at UCF 09/20XX-Present'}, 
+# 'meta': {'identifier': 'eXHbnQbZ', 'file_name': 'SampleResume.pdf', 'ready': True, 'ready_dt': '2023-02-15T19:48:13.381122Z', 'failed': False, 'language': 'en', 'pdf': 'http://api.affinda.com/v2/resumes', 'child_documents': [], 'pages': [{'id': 13019794, 'page_index': 0, 'height': 792.0, 'width': 612.0, 'rotation': 0}], 'is_verified': True}, 'error': {}}
