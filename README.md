@@ -1,6 +1,12 @@
 ## JobsForYou - Matching resumes with relevant jobs powered by AI
 
-A resume matching platform built with Airflow(fetched jobs), GCP (stored jobs), MongoDB (processed jobs), Pinecone (stored job&resume embeddings), Sentence Transformers (generating embeddings), and Streamlit (frontend)
+A resume matching platform built with 
+- Airflow(fetched jobs)
+- GCP (stored jobs)
+- MongoDB (processed jobs)
+- Pinecone (stored job&resume embeddings)
+- Sentence Transformers (generating embeddings)
+- Streamlit (frontend)
 
 Key Features:
 
