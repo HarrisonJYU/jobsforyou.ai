@@ -9,7 +9,7 @@ Key Features:
 
 ### Architecture
 
-`<img src="/assets/architecture.png" alt="Alt Text" width="1500"/>`
+<img src="/assets/architecture.png" alt="Alt Text" width="1500"/>
 
 ### Getting Started
 
