@@ -1,6 +1,8 @@
 ## JobsForYou - Matching resumes with relevant jobs powered by AI
 
-A resume matching platform built with 
+A resume matching platform that helps you get accurate job recommendations.
+
+Built with 
 - Airflow(fetched jobs)
 - GCP (stored jobs)
 - MongoDB (processed jobs)
